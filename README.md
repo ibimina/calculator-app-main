@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ibimina/calculator-app-main)
-- Live Site URL: [Add live site URL here](https://ibimina.github.io/calculator-app-main/)
+- Solution URL: [https://github.com/ibimina/calculator-app-main](https://github.com/ibimina/calculator-app-main)
+- Live Site URL: [https://ibimina.github.io/calculator-app-main/](https://ibimina.github.io/calculator-app-main/)
 
 ## My process
 
