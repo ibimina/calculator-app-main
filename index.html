@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Calculator app</title>
+
+
+</head>
+
+<body class="blue">
+  
+  <div class="container">
+<header class="">
+  <h1>calc</h1>
+
+ 
+  <div class="set-theme">
+    <label for="range">THEME</label>
+    <div>
+      <div class="identify-theme">
+    <p>1</p>
+      <p> 2 </p>
+        <p>3</p>
+        </div>
+    <input type="range" name="range" id="range" min="0" max="2" value="0">
+  </div>
+  </div>
+</header>
+<div class="calculator-wrap">
+    <p class="display">0</p>
+    <div class="keys">
+      <button class="btn">7</button>
+      <button class="btn">8</button>
+      <button class="btn">9</button>
+      <button class="btn del" data-action="delete">DEL</button>
+      <button class="btn">4</button>
+      <button class="btn">5</button>
+      <button class="btn">6</button>
+      <button class="btn" data-action="add">+</button>
+      <button class="btn">1</button>
+      <button class="btn">2</button>
+      <button class="btn">3</button>
+      <button class="btn" data-action="subtract">-</button>
+      <button class="btn" data-action="decimal">.</button>
+      <button class="btn">0</button>
+      <button class="btn" data-action="divide">/</button>
+      <button class="btn" data-action="multiply">x</button>
+      <button class="reset square" data-action="reset">RESET</button>
+      <button class="equals square" data-action="equals">=</button>
+    </div>
+
+  </div>
+</div>
+
+  <footer class="attribution">
+   <p> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/ibimina" target="_blank">Ibimina Hart</a>.</p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
